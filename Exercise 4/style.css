@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-card {
+    box-sizing: border-box;
+    border: 2.5px solid rgb(3, 3, 151);
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+    padding: 20px 60px;
+    height: 100%;
+}
+
+.ellipsis {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2px;
+}
+
+.dot {
+    width: 8px;      
+    height: 8px;     
+    background-color: grey;
+    border-radius: 50%; 
+}
+
+
+.profile-card p {
+    padding: 10px;
+    color: #555;
+
+}
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.profile-card h1 {
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    padding: 10px 10px;
+}
+
+.row h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+.view-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid grey;
+    color: #555;
+    width: 50%;
+    padding: 15px 15px;
+    margin-top: 20px;
+    border-radius: 50px; 
+}
